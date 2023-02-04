@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Aboreto", cursive;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #529cec, #0f9848);
+}
+h1 {
+  text-align: center;
+  padding: 45px 0px 30px 0px;
+  color: #fff;
+}
+.container {
+  position: absolute;
+  width: 40%;
+  min-width: 450px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding: 30px 40px;
+  margin-top: 70px;
+}
+#newTask {
+  position: relative;
+  padding: 28px 18px;
+  margin-bottom: -60px;
+  background-color: #ffffff;
+}
+#newTask input {
+  position: relative;
+  width: 70%;
+  height: 45px;
+  font-size: 15px;
+  border: 1px solid #000000;
+  padding: 12px;
+  color: #000000;
+  font-weight: 500;
+}
+
+#newTask button {
+  position: relative;
+  float: right;
+  width: 20%;
+  height: 45px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #529cec;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+#tasks {
+  background-color: #ffffff;
+  padding: 28px 18px;
+  margin-top: 58px;
+  width: 100%;
+  position: relative;
+}
+.task {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 5px 10px;
+  margin: 10px 12px 10px 12px;
+  background-color: #ffffff;
+  justify-content: space-between;
+  border-bottom: 1px solid #000000;
+  cursor: pointer;
+}
+.task span {
+  font-size: 15px;
+}
+.task button {
+  background-color: #529cec;
+  color: #ffffff;
+  height: 100%;
+  padding: 2px 15px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
